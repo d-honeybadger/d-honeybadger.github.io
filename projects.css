@@ -1,0 +1,64 @@
+/************/
+/* PROJECTS */
+/************/
+#projects {
+  display: flex;
+  flex-direction: column;
+}
+#projects ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+@media only screen and (min-width: 768px) {
+  #projects ul {
+    padding: 0 1rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #projects ul {
+    padding: 0 2rem;
+  }
+  #projects ul {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    -ms-grid-columns: 47.5% 5% 47.5%;
+    -ms-grid-rows: auto auto auto;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+  }
+  #projects li:nth-child(1), #projects li:nth-child(2) {
+    -ms-grid-row: 1;
+  }
+  #projects li:nth-child(3), #projects  li:nth-child(4) {
+    -ms-grid-row: 2;
+  }
+  #projects li:nth-child(1), #projects li:nth-child(3) {
+    -ms-grid-column: 1;
+  }
+  #projects li:nth-child(2), #projects li:nth-child(4) {
+    -ms-grid-column: 3;
+  }
+}
+#projects li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+}
+#projects h4 > .app-link {
+  font-family: 'Lato', sans-serif;
+}
+#projects video {
+  max-width: 800px;
+  width: calc(100% + 4rem);
+  margin: 0 -2rem -1rem -2rem;
+}

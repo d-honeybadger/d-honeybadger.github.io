@@ -11,7 +11,7 @@ function drawTriangle() {
       canvas.width = 0.9*window.innerWidth;
       canvas.height = cos60*canvas.width;
     } else {
-      canvas.height = 0.9*window.innerHeight;
+      canvas.height = window.innerHeight - 50;
       canvas.width = canvas.height/(cos60);
     }
     canvas.style.left = String(Math.floor((window.innerWidth - canvas.width)/2)) + 'px';
