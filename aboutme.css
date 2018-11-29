@@ -3,9 +3,9 @@
 /************/
 @media only screen and (min-width: 992px) {
   #about {
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 30% 70%;
     grid-template-rows: auto auto;
-    -ms-grid-columns: 25% 3% 72%;
+    -ms-grid-columns: 30% 3% 67%;
     -ms-grid-rows: auto auto;
   }
 }
