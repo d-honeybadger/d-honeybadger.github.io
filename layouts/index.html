@@ -1,0 +1,16 @@
+{{- define "main" -}}
+<body onload="drawTriangle()">
+  <header>
+    <div class="header-background">
+      <canvas id="sierpinskiTriangle">
+        <p>A nice Sierpinski Triangle animation should be here, but it did
+          not work in your browser.</p>
+      </canvas>
+      <hgroup class="index-title">
+        <h3>You're in Dasha's log</h3>
+      </hgroup>
+    </div>
+  </header>
+  <script type="text/javascript" src="sierpinski_animation.js"></script>
+</body>
+{{- end -}}

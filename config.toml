@@ -45,14 +45,14 @@ addThisId = ""
 inlineToolId = ""
 
 [params.nav]
-showCategories = true       # /categories/
-showTags = true             # /tags/
+# showCategories = true       # /categories/
+# showTags = true             # /tags/
 
 # custom navigation items
 
 [[params.nav.custom]]
-# title = "About"
-# url = "/about"
+title = "LOG"
+url = "/posts"
 
 [[params.nav.custom]]
 # title = "Hugo"
@@ -60,3 +60,4 @@ showTags = true             # /tags/
 
 [params.assets]
 css = ["css/layout.css"]  # *.css/scss/sass
+js = ["js/sierpinski_animation.js"]
