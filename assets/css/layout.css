@@ -1,3 +1,29 @@
 .article.markdown-body {
     background-image: none;
 }
+
+.index-title {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header-background {
+    position: relative;
+    width: 100%;
+}
+
+.index-title h3 {
+    position: relative;
+    top: 44%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+    padding: 0 1rem;
+}
+
+body {
+    font-family: 'Commissioner', sans-serif;
+}
